@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,11 +16,83 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-				<section data-auto-animate>
-					<h1 style="margin-top: 100px; color: rgb(226, 15, 15);">Auto-Animate</h1>
-				  </section>
+				<section>
+					<h1>Vue.js</h1>
+					<p>Framework JavaScript yang ngakunya progressive</p>
+				</section>
+				<section>
+					<section>
+						<h2>Apa itu Vue.js</h2>
+						<p>Vue JS adalah salah satu framework atau library dari JavaScript yang digunakan untuk untuk membuat tampilan (interface) pada website agar tampak lebih interaktif. </p>
+					</section>
+					<section>
+						Fungsi lain dari Vue JS adalah membuat SPA (Single Page Application).
+					</section>
+					<section>
+						Dibuat oleh Evan You pada tahun 2013. Evan You adalah former Engineer di Google yang bekerja untuk Angular.js.
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Fitur Vue.js</h2>
+					</section>
+					<section>
+						<h3>Components</h3>
+						<p>Components digunakan untuk membuat berbagai elemen pada HTML secara custom. Elemen custom ini juga dapat digunakan secara berulang – ulang.</p>
+					</section>
+					<section>
+						<h3>Computed Properties</h3>
+						<p>Computed properties digunakan untuk melihat setiap perubahan yang terjadi dalam elemen user interface tanpa harus melakukan penambahan kode di dalamnya.</p>
+					</section>
+					<section>
+						<h3>Data Binding</h3>
+						<p>Digunakan untuk memanipulasi dan memberikan nilai (value) pada atribut HTML. Sebagai contoh, mengubah style dengan menggunakan bantuan binding directives, yaitu V-Bind.</p>
+					</section>
+					<section>
+						<h3>Directives</h3>
+						<p>Berfungsi untuk melakukan berbagai aksi (action) pada antarmuka front end website. Contoh perintah bawaan yang digunakan adalah v-if, v-else, v-model, dan lainnya.</p>
+					</section>
+					<section>
+						<h3>Event Handling</h3>
+						<p>V-on yang berfungsi sebagai atribut yang dapat ditambahkan ke dalam suatu elemen DOM untuk sebuah event pada Vue JS.</p>
+					</section>
+				</section>
+				<section>
+					<h2>Kelebihan</h2>
+					<ul>
+						<li>Mempunyai Ukuran yang Ringan</li>
+						<li>Memiliki Dokumentasi yang Lengkap</li>
+						<li>Mudah untuk Diintegrasikan</li>
+						<li>Mampu Berinteraksi secara Dua Arah</li>
+						<li>Mempunyai Stok dan Dukungan Plugin yang Banyak</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Kekurangan</h2>
+					<p>Namanya juga bukan ciptaan tuhan...</p>
+					<p>Berikut kekurangan Vue.js versi googling:</p>
+					<ul>
+						<li>Komunitas Terbatas</li>
+						<li>Perubahan Terlalu Cepat</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Performa</h2>
+				</section>
+				<section>
+					<section>
+						<h2>Kesimpulan</h2>
+					</section>
+					<section>
+						Vue JS adalah framework dari JavaScript untuk mengembangkan tampilan website yang lebih interaktif dan dinamis.
+					</section>
+					<section>
+						Kelebihan yang dimiliki oleh Vue JS antara lain, memiliki ukuran yang lebih ringan, proses integrasi menjadi lebih mudah, memiliki dukungan plugin, serta dokumentasi yang lengkap.
+					</section>
+					<section>
+						Beberapa fitur yang dimiliki oleh framework ini adalah components, computer properties, data binding, directives, event handling, lightweight, routing, templates, virtual DOM, dan watchers.
+					</section>
+				</section>
 			</div>
 		</div>
 
@@ -34,7 +106,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				slideNumber: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
