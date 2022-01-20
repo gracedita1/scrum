@@ -42,6 +42,21 @@
 							</div>
 						</div>
 					</section>
+					<section>
+						<h2>Rilis dan versi</h2>
+						<ul>
+							<li>Initial (v0.10) tahun 2014</li>
+							<li>v1.0 tahun 2015</li>
+							<li>v2.0 tahun 2016</li>
+							<li>v2.6 (sekarang)</li>
+							<li>v3.0 tahun 2020*</li>
+						</ul>
+						<p>
+							<small>
+								* hanya vue-core saja yang stabil.
+							</small>
+						</p>
+					</section>
 				</section>
 				<section>
 					<section>
@@ -72,17 +87,42 @@
 						<p>Fitur ini berfungsi untuk menghubungkan satu halaman dengan halaman lainnya. Kamu juga bisa menggunakan fitur ini untuk membuat website Single Page Application..</p>
 					</section>
 				</section>
-
-                <section>
-					<h2>Instalasi Vue</h2>
-					<p>
-						The easiest way to try out Vue.js is using the Hello World example.
-					</p>
-						<pre><code> <script src="https://cdn.jsdelivr.net/npm/vue@2"></script></code></pre>  
-
- 						<p>or</p>					
-
-						<pre><code> <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script></code></pre>  
+				<section>
+					<section>
+						<h2>Instalasi Vue</h2>
+						<p>
+							The easiest way to try out Vue.js is using the Hello World example.
+						</p>
+							<pre><code class="html"> <script src="https://cdn.jsdelivr.net/npm/vue@2"></script></code></pre>  
+							<p>or</p>					
+							<pre><code class="html"> <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script></code></pre> 
+					</section> 
+					<section>
+						<h2>Code</h2>
+						<div class="flex">
+							<div class="basis-1/2">
+								<p>HTML</p>
+								<pre>
+									<code class="html"><div id="app">
+	{{ salam }}
+</div></code>
+								</pre>
+								<p>JavaScript</p>
+								<pre>
+									<code class="javascript">const app = new Vue({
+	el: '#app',
+	data: {
+		salam: 'Hey-o-whatzupp guys.'
+	}
+})</code>
+								</pre>
+							</div>
+							<div class="basis-1/2 fragment fade-in">
+								<p>Output</p>
+								<pre><code>Hey-o-whatzupp guys.</code></pre>
+							</div>
+						</div>
+					</section>
 				</section>
 
 				<section>
