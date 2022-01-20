@@ -8,16 +8,120 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
-
+		<link rel="stylesheet" href="dist/theme/night.css">
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+						<img src="https://vuejs.org/images/logo.svg" alt="vue logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3>Vue.js</h1>
+					<p>Framework JavaScript</p>
+					
+				</section>
+				<section>
+					<section>
+
+						<h2>Apa itu Vue.js</h2>
+						<p>Vue JS adalah salah satu framework atau library dari JavaScript yang digunakan untuk untuk membuat tampilan (interface) pada website agar tampak lebih interaktif. </p>
+					</section>
+					<section>
+						Fungsi lain dari Vue JS adalah membuat SPA (Single Page Application).
+					</section>
+					<section>
+						Dibuat oleh Evan You pada tahun 2013. Evan You adalah former Engineer di Google yang bekerja untuk Angular.js.
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Fitur Vue.js</h2>
+					</section>
+					<section>
+						<h3>Components</h3>
+						<p>Components digunakan untuk membuat berbagai elemen pada HTML secara custom. Elemen custom ini juga dapat digunakan secara berulang – ulang.</p>
+					</section>
+					<section>
+						<h3>Computed Properties</h3>
+						<p>Computed properties digunakan untuk melihat setiap perubahan yang terjadi dalam elemen user interface tanpa harus melakukan penambahan kode di dalamnya.</p>
+					</section>
+					<section>
+						<h3>Data Binding</h3>
+						<p>Digunakan untuk memanipulasi dan memberikan nilai (value) pada atribut HTML. Sebagai contoh, mengubah style dengan menggunakan bantuan binding directives, yaitu V-Bind.</p>
+					</section>
+					<section>
+						<h3>Directives</h3>
+						<p>Berfungsi untuk melakukan berbagai aksi (action) pada antarmuka front end website. Contoh perintah bawaan yang digunakan adalah v-if, v-else, v-model, dan lainnya.</p>
+					</section>
+					<section>
+						<h3>Routing</h3>
+						<p>Fitur ini berfungsi untuk menghubungkan satu halaman dengan halaman lainnya. Kamu juga bisa menggunakan fitur ini untuk membuat website Single Page Application..</p>
+					</section>
+				</section>
+
+                <section>
+					<h2>Instalasi Vue</h2>
+					<p>
+						The easiest way to try out Vue.js is using the Hello World example.
+					</p>
+						<pre><code> <script src="https://cdn.jsdelivr.net/npm/vue@2"></script></code></pre>  
+
+ 						<p>or</p>					
+
+						<pre><code> <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script></code></pre>  
+				</section>
+
+				<section>
+ 					<h2 class ="fragment highlight-red">Kelebihan</h2>
+					<ul>
+						<p class="fragment">Mempunyai Ukuran yang Ringan</p>
+						<p class="fragment">Memiliki Dokumentasi yang Lengkap</p>
+						<p class="fragment">Mudah untuk Diintegrasikan</p>
+						<p class="fragment">Mampu Berinteraksi secara Dua Arah</p>
+						<p class="fragment">Mempunyai Stok dan Dukungan Plugin yang Banyak</p>
+					</ul>
+				</section>
+				<section>
+					<h2>Kekurangan</h2>
+					<p>Namanya juga bukan ciptaan tuhan...</p>
+					<p>Berikut kekurangan Vue.js versi googling:</p>
+					<ul>
+						<li>Komunitas Terbatas</li>
+						<li>Perubahan Terlalu Cepat</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Performa</h2>
+					Benchmark Performa Vue, Angular, dan React
+					<h4>Durasi dalam milliseconds (ms)
+					<img src="https://athemes.com/wp-content/uploads/Screenshot-from-2020-09-20-15-31-11.png" alt="vue logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					
+				</section>
+				<section>
+					<section>
+						<h2>Kesimpulan</h2>
+					</section>
+					<section>
+						Vue JS adalah framework dari JavaScript untuk mengembangkan tampilan website yang lebih interaktif dan dinamis.
+					</section>
+					<section>
+						Kelebihan yang dimiliki oleh Vue JS antara lain, memiliki ukuran yang lebih ringan, proses integrasi menjadi lebih mudah, memiliki dukungan plugin, serta dokumentasi yang lengkap.
+					</section>
+					<section>
+						Beberapa fitur yang dimiliki oleh framework ini adalah components, computer properties, data binding, directives, event handling, lightweight, routing, templates, virtual DOM, dan watchers.
+					</section>
+				</section>
+
+					<section data-background="https://cdn-image.hipwee.com/wp-content/uploads/2014/10/82961-thank-you-gif-Emma-Stone-YmA7.gif" data-background-interactive>
+					<div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>.. THE END</h2>
+						<p> Ketua Kelompok : Grace Dita Hutasoit (181112108)</p>
+						<p> Anggota : Andrew Adrian Hartanto Sijabat (181114419) </p>
+						<p> Anggota : Katon Surya Atmaja (171112909)</p>
+					</div>
+				</section>
 			</div>
 		</div>
 
@@ -31,7 +135,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-
+				slideNumber: true,
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
