@@ -9,7 +9,7 @@ Repository ini berisi presentasi RevealJS mengenai Vue.JS
 Materi ini berisi dari penjelasan apa itu vue, apa saja fitur-fiturnya, kelebihan dari framework vue, dan kelemahan dari vue js.
 
 
-Untuk instalasi Example Hello Word Vue dapat mengikuti cara ini :
+Untuk instalasi Example Hello Word Vue dengan Inject CDN dapat mengikuti cara ini :
 ```bash
 <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 ```
